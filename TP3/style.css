@@ -1,0 +1,95 @@
+body{
+    background-image: url("wallpaper1.jpeg");
+}
+
+header h1{
+    position: fixed;
+    text-align: center;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    padding: 20px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    word-spacing: 50px;
+    padding-top: 10%;
+    font-size: 6rem;
+    overflow-y: auto;
+}
+main{
+    flex: 1;
+}
+
+footer {
+    background-color: blue;
+    color: white;
+    text-align: center;
+    padding: 2rem;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.nav-links {
+    text-align: center;
+    display: flex;             /* disposer sur une même ligne */
+    justify-content: center;   /* centrer horizontalement */
+    align-items: center;       /* centrer verticalement */
+    gap: 4rem;                 /* espace entre les liens */
+    padding: 20px;             /* espace interne */
+    margin: 0;
+    width: 100%;
+    padding-top: 20%;
+
+    
+
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: blue;
+    font-weight: bold;
+    font-size: 1.5rem;
+    border-top: 1px solid;    /* ligne au-dessus */
+    border-bottom: 1px solid; /* ligne en dessous */
+}
+
+.rules{
+ padding-left: 25%;
+ padding-top: 10%;
+ font-size: 2rem;
+ word-spacing: 30px;
+}
+.form-control {
+    width: 300px;             /* largeur du champ */
+    padding: 10px;            /* espace intérieur */
+    border: 2px solid black;  /* bordure noire */
+    border-radius: 0;          /* coins carrés */
+    margin: 10px auto;        /* centre horizontalement */
+    display: block;           /* nécessaire pour margin auto */
+    text-align: center;       /* centre le texte à l'intérieur */
+    background-color: white;  /* fond blanc, remplace bg-transparent si besoin */
+    max-width: 30%;
+}
+.btn {
+      padding: 10px 20px;
+      border: none;
+      background-color: blue;
+      color: white;
+      font-size: 1.2rem;
+      border-radius: 5px;
+      cursor: pointer;
+      border: 2px solid black;  /* bordure noire */
+  }
+
+  .btn h1 {
+      margin: 0;
+      font-size: 1.2rem;
+  }
+
+#interro{
+     width: 300px;             /* largeur du champ */
+    padding: 10px;            /* espace intérieur */
+    margin: 10px auto;        /* centre horizontalement */
+    display: block;           /* nécessaire pour margin auto */
+    text-align: center;       /* centre le texte à l'intérieur */
+    max-width: 30%;
+    white-space: pre;   /* garde les espaces et tabulations */
+}
