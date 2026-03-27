@@ -79,12 +79,17 @@ footer {
       border: 2px solid black;  /* bordure noire */
   }
 
-  .btn h1 {
-      margin: 0;
-      font-size: 1.2rem;
-  }
 
-#interro{
+.try-text{
+    color: white;
+    background-color: black;
+    margin: 0;
+    font-size: 1.2rem;
+    padding: 2px 5px;
+    padding-left: 50%;
+}
+
+.interro{
      width: 300px;             /* largeur du champ */
     padding: 10px;            /* espace intérieur */
     margin: 10px auto;        /* centre horizontalement */
@@ -92,4 +97,15 @@ footer {
     text-align: center;       /* centre le texte à l'intérieur */
     max-width: 30%;
     white-space: pre;   /* garde les espaces et tabulations */
+}
+
+.win{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.love{
+    text-align: center;
+    justify-content: center;
+    word-spacing: 50%;
 }

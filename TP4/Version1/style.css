@@ -1,0 +1,73 @@
+html, body{
+    margin: 0; 
+    height: 100%;
+}
+
+body{
+    background-image: url("img/MagicBG2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-direction: column;
+    display: flex;
+    background-attachment: fixed;
+    overflow-y: auto;
+    
+}
+
+#link{
+    color: blue;
+}
+
+#footer{
+    position:relative;
+    padding: 20px;
+    margin-left: 20%;
+    font-size: 20px;
+    color: white;
+}
+
+#footer1{
+    background-color: #212529;
+}
+
+main{
+    flex: 1;
+    height: 100vh;
+}
+
+.pirata-one-regular {
+  font-family: "Pirata One", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.prince1{
+    font-size: 50px;
+    color: white;
+    padding-top: 30px;
+    background-color: #212529;
+}
+.prince2{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+}
+
+
+header {
+  display: flex;
+  justify-content: space-between; /* espace entre le h1 et le nav */
+  align-items: center;           /* alignement vertical centré */
+  padding: 10px 20px;           /* optionnel : espace interne */
+  background-color: #212529;    /* juste pour voir le header */
+}
+
+header a{
+    color: white;
+    text-decoration: none;
+}
+#navlink a{
+    color: white;
+    font-size: 30px;
+    padding-right: 900px;
+}

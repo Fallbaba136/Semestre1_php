@@ -21,9 +21,10 @@ final class SecretWordGame
         $resultat = [];
         $win = true;
            if (!isset($word)) {
+            //Initialisation du tableau au cas ou c'est pas vide
             $word = [];
         }
-      for ($i=0; $i < count($this->secret) ; $i++) { 
+      for ($i=1; $i < count($this->secret) ; $i++) { 
             if (isset($word[$i]) && $this->secret[$i] == $word[$i]) {
             $resultat[$i] = $this->secret[$i];
         }else {
@@ -45,18 +46,22 @@ final class SecretWordGame
             <!-- On utilise l'erreur de coalescence null
             Si le variable est null on prend le valeur par default -->
         <h2 id="interro">
-            <?= $reponse["result"] ?? "?\t????\t???"  ?>
+            <?= $reponse["result"] ?>
         </h2>
-        <input type="text" class="form-control bg-transparent" name="proposition">
-        <button type="submit" class="btn"> <h1>Try</h1></button>
+        <input type="text" class="form-control bg-transparent border border-dark" name="proposition">
+        <div class="d-flex justify-content-center align-items-center">
+            <button type="submit" class="btn">
+                <span class="d-flex jsutify-content-center align-item-center bg-black text-white p-2 h2">Try</span>
+            </button>
+        </div>
         </form>
         <?php
     }
 
     public function generateWin() : void{
         ?>
-        
-        <h1 class="text-info-emphasie">!!! YOU WIN !!!</h1>
+        <h1 class="love d-flex text-center">i love php</h1>
+        <h1 class="win text-info-emphasie  justify-content-center align-item-center text-success">!!! YOU WIN !!!</h1>
         
         
         <?php
