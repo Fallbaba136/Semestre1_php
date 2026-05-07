@@ -15,9 +15,9 @@ class Browser{
     }
 public function generateCards():void{
     ?>
-    <div class="row row-cols-1 row-cols-md-3 g-1">
+    <div class="cards-grid">
     <?php foreach($this->cart as $cle => $valeur):?>
-        <div class="col">
+        <div class="my-card">
             <div class="ratio ratio-1x1 bg-transparent">
                 <img src="<?= $valeur['image_uris']['normal'] ?>" 
                      alt="<?= $valeur['name']?>"

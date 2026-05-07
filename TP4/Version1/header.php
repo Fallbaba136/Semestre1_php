@@ -4,7 +4,7 @@
     </div>
     <nav>
         <div id="navlink">
-        <a href="browse.php text-decoration-none">Browse</a>
+        <a href="browse.php" class="browse">Browse</a>
         </div>
     </nav>
 </header>
